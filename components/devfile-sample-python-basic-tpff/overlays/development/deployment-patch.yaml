@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic-tpff
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/my-app/devfile-sample-python-basic-tpff@sha256:65fb7ac9acdd18a05b8ab378555cb90851c7290fa5c1e655f31fe4eb45c49b5f
+        name: my-python
+        resources: {}
+status: {}
