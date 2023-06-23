@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: devfile-sample-python-basic-tpff
     app.kubernetes.io/part-of: my-app
-  name: devfile-sample-python-basis72
+  name: devfile-sample-python-basc37h
 spec:
   path: /
   port:
