@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-tpff
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/my-app/devfile-sample-python-basic-tpff@sha256:65fb7ac9acdd18a05b8ab378555cb90851c7290fa5c1e655f31fe4eb45c49b5f
+      - image: quay.io/redhat-user-workloads-stage/anjoseph-tenant/my-app/devfile-sample-python-basic-tpff@sha256:637232f531e752ca9811be7669dc4ef1611da96998485d0ef9e75150e5953ae5
         name: my-python
         ports:
         - containerPort: 8081
